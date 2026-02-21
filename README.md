@@ -1,4 +1,13 @@
-# QR Code API
+# QR Code API & Web Tool
+
+This repo contains:
+
+- **API** — Express-based QR code API (see below)
+- **Web Tool** (`web/`) — Next.js website with free QR generator, blog, and AdSense-ready structure. Deploy to a new Vercel domain with Root Directory set to `web`. See [web/README.md](web/README.md).
+
+---
+
+## API
 
 Simple API: send a link or text, get back a QR code image.
 
